@@ -1,7 +1,6 @@
 package com.epam.mjc.stage0;
 
 
-
 /**
  * Here are the tasks for working with the arrays.
  * <p>
@@ -87,7 +86,6 @@ public class ArrayTasks {
             res[arr.length - 1 - i] = arr[i];
         }
         return res;
-
     }
 
     /**
@@ -122,7 +120,6 @@ public class ArrayTasks {
                 index++;
             }
         }
-
         return res;
     }
 
@@ -161,11 +158,7 @@ public class ArrayTasks {
                 }
             }
         }
-
         return arr;
     }
-
-
-
 }
 
