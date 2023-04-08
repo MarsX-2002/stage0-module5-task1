@@ -157,10 +157,8 @@ public class ArrayTasks {
                         arr[i][j] = arr[i][k];
                         arr[i][k] = temp;
                     }
-
                 }
             }
-
         }
 
         return arr;
