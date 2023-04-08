@@ -149,7 +149,7 @@ public class ArrayTasks {
 //            sort numbers in ascending order in inner arrays
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                for (int k = 0; k < arr[i].length; k++) {
+                for (int k = j + 1; k < arr[i].length; k++) {
                     if (arr[i][j] > arr[i][k]) {
                         int temp = arr[i][j];
                         arr[i][j] = arr[i][k];
